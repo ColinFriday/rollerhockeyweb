@@ -1,0 +1,133 @@
+.side-nav {
+    width: 250px;
+}
+
+#navhead {
+    border-bottom-width: 5px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+
+#photo {
+    margin-top: 15px;
+}
+
+#name {
+    margin-top: 0px;
+    text-shadow: 2px 2px 2px gray;
+}
+
+#copyright {
+    margin-top: 0px;
+}
+
+.socialmedia {
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+    background-image: url(../media/Forest.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+main {
+    margin-left: 250px;
+    flex: 1 0 auto;
+}
+
+section {
+    background-color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 6px gray;
+}
+
+.page-footer {
+    margin-left: 250px;
+}
+
+@media only screen and (max-width: 992px){
+    main {
+        margin-left: 0px;
+    }
+    .page-footer {
+        margin-left: 0px;
+    }
+}
+
+.side-nav li:hover {
+    background-color: #fb8c00;
+    transition: background-color .5s, color .5s;
+}
+
+.side-nav a:hover{
+    color: white;
+}
+
+.side-nav li.active {
+    background-color: #fb8c00;
+}
+
+.carousel .carousel-item {
+width:300px !important;
+height:400px !important;}
+
+.info {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.player {
+    width: 30%;
+    height: 30%;
+    float: right; 
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+    border-width: 5px;
+    border-color: gray;
+    border-style: solid;
+}
+
+.player-photo {
+    width: 100%;
+    height: 100%;
+    border-bottom-width: 5px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+
+.player-box {
+    margin-left: 5px;
+}
+
+.statistics {
+    width: 60%;
+    text-align: center;
+}
+
+.teamlogo {
+    width: 75px;
+    height: 75px;
+}
