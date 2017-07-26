@@ -10,6 +10,9 @@
 
 #photo {
     margin-top: 15px;
+    width: 50%;
+    height: 50%
+    
 }
 
 #name {
@@ -35,7 +38,7 @@ body {
     width: 100%;
     flex-direction: column;
     background-color: black;
-    background-image: url(../media/Forest.jpg);
+    background-image: url(../media/roller.jpg);
     background-attachment: fixed;
     background-size: cover;
   }
