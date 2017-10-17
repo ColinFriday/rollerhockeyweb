@@ -101,7 +101,21 @@ td {
     text-align: center;
 }
 
-.player {
+@media only screen and (max-width: 800px){
+    .player {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    
+    border-width: 5px;
+    border-color: gray;
+    border-style: solid;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .player {
     width: 30%;
     height: 30%;
     float: right; 
@@ -111,7 +125,9 @@ td {
     border-width: 5px;
     border-color: gray;
     border-style: solid;
+    }
 }
+
 
 .player-photo {
     width: 100%;
@@ -123,6 +139,8 @@ td {
 
 .player-box {
     margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 .statistics {
@@ -224,4 +242,9 @@ table.responsive-stripes thead tr th, table.responsive-stripes tbody tr td {
 
 #menu {
     color: #fb8c00;
+}
+
+.player-label {
+    color: white;
+    background-color: #fb8c00;
 }
