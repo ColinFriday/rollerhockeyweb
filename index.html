@@ -1,112 +1,122 @@
- <!DOCTYPE html>
-  <html>
-      <head>
-          <!-- Character Set Information -->
-        <meta charset="utf-8" />
-        
-        <!-- Website Tab Information -->
-        <title>RIT Roller Hockey</title>
-        <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico" />
-        
-        <!-- Materialize Framework -->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen"/>
-        
-        <!-- Personal Style Sheet -->
-        <link rel="stylesheet" type="text/css" href="css/style.css">
-        
-        <!-- Font Families -->
-        <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
-        
-        <!-- Optimized For Mobile -->
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-      </head>
-
-      <body>
-          <!-- Navigation Bar -->
-          <ul id="slide-out" class="side-nav fixed center-align">
-              <li class="orange darken-1" id="navhead" >
-                  <img id="photo" src="media/teams/RIT.png" alt="The RIT Tiger" />
-                  <h3 id= "name" class="white-text">RIT Roller Hockey</h3>
-              </li>
-              <li class="active" >
-                  <a href="index.html">Home</a>
-              </li>
-              <li>
-                  <a href="roster/index.html">Roster</a>
-              </li>
-              <li>
-                  <a href="schedule/index.html">Schedule</a>
-              </li>
-              <li>
-                  <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#116;&#114;&#111;&#108;&#108;&#101;&#114;&#104;&#111;&#99;&#107;&#101;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;'>Email Us!</a>
-              </li>           
-          </ul>
-          <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
-        <main>
-            <div class="container">
-                <section class="col s8 offset-s6">  
-                    <h1 class="center-align">RIT Roller Hockey</h1>
-        
-                    <div class="divider"></div>
-                    
-                    <p class="info">The RIT Roller Hockey Club was formed in the 90's with the goal of gathering players from various skill types to compete in the National Collegiate Roller Hockey Association. It is a opportunity for experienced players to advance their skills and compete at the collegiate level. Additionally, it is a great chance for players who have never played before to learn from experienced players. Whether you're new to Roller Hockey or would just like to keep active and enhance your skills, all are welcome. There are many friendly players in the Roller Hockey club of various skills who come to play so feel free to stop by one of our practices. As always; a stick, skates, gloves, shin pads and a helmet are required.</p>
-
-                    <p class="info">Meetings and practices vary by semester. For information please click the email us button!</p>
-                    
-                    <div class="carousel">
-                        <a class="carousel-item" href="#one!"><img src="media/MarshMay.jpg"></a>
-                        <a class="carousel-item" href="#two!"><img src="media/Orcutt.jpg"></a>
-                        <a class="carousel-item" href="#three!"><img src="media/May.jpg"></a>
-                        <a class="carousel-item" href="#four!"><img src="media/Perelli.jpg"></a>
-                        <a class="carousel-item" href="#five!"><img src="media/Murray.jpg"></a>
-                    </div>
-                    
-                </section>
-            </div>
-        </main>
-
-        
-        
-          <!-- Footer With Social Media Bar -->
-          <footer class="page-footer orange darken-1">
-              <div class="container  center-align">
-                  <div class="row">
-                      <div class="col s12">
-                          <h5 class="white-text">Social Media</h5>
-                          <p>
-                              <a href="https://www.facebook.com/RITRoller"><img class="socialmedia"  src="media/facebook.png" alt="Facebook"/></a>
-                              <a href="https://twitter.com/RIT_Roller"><img class= "socialmedia" src="media/twitter.png" alt="Twitter"/></a>
-                          </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="footer-copyright">
-                  <div class="container">
-                      <div class="col s4 offset-s4 center-align">
-                        <p id="copyright">&copy; 2017 Stormy Harbor Studios</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-    
-        
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="js/materialize.min.js"></script>
-        <script>
-            $(".button-collapse").sideNav();
-            
-            $(document).ready(function(){
-                $('.carousel').carousel();
-                $('.carousel.carousel-slider').carousel({fullWidth: true});
-            });
-            
-            
-        </script>
-
-    </body>
+ <!DOCTYPE html>
+  <html>
+      <head>
+          <!-- Character Set Information -->
+        <meta charset="utf-8" />
+        
+        <!-- Website Tab Information -->
+        <title>RIT Roller Hockey</title>
+        <link rel="shortcut icon" type="image/x-icon" href="media/favicon.ico" />
+        
+        <!-- Materialize Framework -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen"/>
+        
+        <!-- Personal Style Sheet -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        
+        <!-- Font Families -->
+        <link href="https://fonts.googleapis.com/css?family=Abhaya+Libre" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+        
+        <!-- Optimized For Mobile -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+        <!-- Global Site Tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106818821-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+
+            gtag('config', 'UA-106818821-1');
+        </script>
+      </head>
+
+      <body>
+          <!-- Navigation Bar -->
+          <ul id="slide-out" class="side-nav fixed center-align">
+              <li class="orange darken-1" id="navhead" >
+                  <img id="photo" src="media/teams/RIT.png" alt="The RIT Tiger" />
+                  <h3 id= "name" class="white-text">RIT Roller Hockey</h3>
+              </li>
+              <li class="active" >
+                  <a href="index.html">Home</a>
+              </li>
+              <li>
+                  <a href="roster/index.html">Roster</a>
+              </li>
+              <li>
+                  <a href="schedule/index.html">Schedule</a>
+              </li>
+              <li>
+                  <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#116;&#114;&#111;&#108;&#108;&#101;&#114;&#104;&#111;&#99;&#107;&#101;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;'>Email Us!</a>
+              </li>           
+          </ul>
+          <a id="menu" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+
+        <main>
+            <div class="container">
+                <section class="col s8 offset-s6">  
+                    <h1 class="center-align">RIT Roller Hockey</h1>
+        
+                    <div class="divider"></div>
+                    
+                    <p class="info">The RIT Roller Hockey Club was formed in the 90's with the goal of gathering players from various skill types to compete in the National Collegiate Roller Hockey Association. It is a opportunity for experienced players to advance their skills and compete at the collegiate level. Additionally, it is a great chance for players who have never played before to learn from experienced players. Whether you're new to Roller Hockey or would just like to keep active and enhance your skills, all are welcome. There are many friendly players in the Roller Hockey club of various skills who come to play so feel free to stop by one of our practices. As always; a stick, skates, gloves, shin pads and a helmet are required.</p>
+
+                    <p class="info">Meetings and practices vary by semester. For information please click the email us button!</p>
+                    
+                    <div class="carousel">
+                        <a class="carousel-item" href="#one!"><img src="media/MarshMay.jpg"></a>
+                        <a class="carousel-item" href="#two!"><img src="media/Orcutt.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="media/May.jpg"></a>
+                        <a class="carousel-item" href="#four!"><img src="media/Perelli.jpg"></a>
+                        <a class="carousel-item" href="#five!"><img src="media/Murray.jpg"></a>
+                    </div>
+                    
+                </section>
+            </div>
+        </main>
+
+        
+        
+          <!-- Footer With Social Media Bar -->
+          <footer class="page-footer orange darken-1">
+              <div class="container  center-align">
+                  <div class="row">
+                      <div class="col s12">
+                          <h5 class="white-text">Social Media</h5>
+                          <p>
+                              <a href="https://www.facebook.com/RITRoller"><img class="socialmedia"  src="media/facebook.png" alt="Facebook"/></a>
+                              <a href="https://twitter.com/RIT_Roller"><img class= "socialmedia" src="media/twitter.png" alt="Twitter"/></a>
+                          </p>
+                      </div>
+                  </div>
+              </div>
+              <div class="footer-copyright">
+                  <div class="container">
+                      <div class="col s4 offset-s4 center-align">
+                        <p id="copyright">&copy; 2017 Stormy Harbor Studios</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    
+        
+        <!--Import jQuery before materialize.js-->
+        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script type="text/javascript" src="js/materialize.min.js"></script>
+        <script>
+            $(".button-collapse").sideNav();
+            
+            $(document).ready(function(){
+                $('.carousel').carousel();
+                $('.carousel.carousel-slider').carousel({fullWidth: true});
+            });
+            
+            
+        </script>
+
+    </body>
   </html>
