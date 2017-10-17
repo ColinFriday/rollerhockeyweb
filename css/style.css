@@ -1,250 +1,252 @@
-.side-nav {
-    width: 250px;
-}
-
-#navhead {
-    border-bottom-width: 5px;
-    border-bottom-color: gray;
-    border-bottom-style: solid;
-}
-
-#photo {
-    margin-top: 15px;
-    width: 50%;
-    height: 50%
-    
-}
-
-#name {
-    margin-top: 0px;
-    text-shadow: 2px 2px 2px gray;
-}
-
-#copyright {
-    margin-top: 0px;
-}
-
-.socialmedia {
-    margin: 5px;
-}
-
-h1 {
-    font-family: 'Abhaya Libre', serif;
-}
-
-body {
-    display: flex;
-    min-height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    background-color: black;
-    background-image: url(../media/roller.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-  }
-
-main {
-    margin-left: 250px;
-    flex: 1 0 auto;
-}
-
-section {
-    background-color: white;
-    padding-right: 30px;
-    padding-left: 30px;
-    padding-bottom: 30px;
-    padding-top: 10px;
-    border-radius: 20px;
-    margin-bottom: 50px;
-    box-shadow: 5px 5px 6px gray;
-}
-
-.page-footer {
-    margin-left: 250px;
-}
-
-@media only screen and (max-width: 992px){
-    main {
-        margin-left: 0px;
-    }
-    .page-footer {
-        margin-left: 0px;
-    }
-}
-
-.side-nav li:hover {
-    background-color: #fb8c00;
-    transition: background-color .5s, color .5s;
-}
-
-.side-nav a:hover{
-    color: white;
-}
-
-.side-nav li.active {
-    background-color: #fb8c00;
-}
-
-.carousel .carousel-item {
-width:300px !important;
-height:400px !important;}
-
-.info {
-    text-align: center;
-}
-
-th {
-    text-align: center;
-}
-
-td {
-    text-align: center;
-}
-
-@media only screen and (max-width: 800px){
-    .player {
-    width: 50%;
-    height: 50%;
-    margin-left: 25%;
-    margin-bottom: 5%;
-    
-    border-width: 5px;
-    border-color: gray;
-    border-style: solid;
-    }
-}
-
-@media only screen and (min-width: 800px){
-    .player {
-    width: 30%;
-    height: 30%;
-    float: right; 
-    margin-left: 5%;
-    margin-bottom: 5%;
-    
-    border-width: 5px;
-    border-color: gray;
-    border-style: solid;
-    }
-}
-
-
-.player-photo {
-    width: 100%;
-    height: 100%;
-    border-bottom-width: 5px;
-    border-bottom-color: gray;
-    border-bottom-style: solid;
-}
-
-.player-box {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-bottom: 5px;
-}
-
-.statistics {
-    width: 60%;
-    text-align: center;
-}
-
-.teamlogo {
-    width: 75px;
-    height: 75px;
-}
-
-@media only screen and (max-width: 1300px) {
-  table.responsive-stripes {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-    display: block;
-    position: relative;
-    /* sort out borders */
-  }
-  table.responsive-stripes td:empty:before {
-    content: '\00a0';
-  }
-  table.responsive-stripes th,
-  table.responsive-stripes td {
-    margin: 0;
-    vertical-align: top;
-  }
-  table.responsive-stripes th {
-    text-align: left;
-  }
-  table.responsive-stripes thead {
-    display: block;
-    float: left;
-  }
-  table.responsive-stripes thead tr {
-    display: block;
-    padding: 0 10px 0 0;
-  }
-  table.responsive-stripes thead tr th::before {
-    content: "\00a0";
-  }
-  table.responsive-stripes tbody {
-    display: block;
-    width: auto;
-    position: relative;
-    overflow-x: auto;
-    white-space: nowrap;
-  }
-  table.responsive-stripes tbody tr {
-    display: inline-block;
-    vertical-align: top;
-  }
-  table.responsive-stripes th {
-    display: block;
-    text-align: right;
-  }
-  table.responsive-stripes td {
-    display: block;
-    min-height: 1.25em;
-    text-align: left;
-  }
-  table.responsive-stripes tr {
-    padding: 0 10px;
-  }
-  table.responsive-stripes thead {
-    border: 0;
-    border-right: 1px solid #d0d0d0;
-  }
-  table.responsive-stripes.bordered th {
-    border-bottom: 0;
-    border-left: 0;
-  }
-  table.responsive-stripes.bordered td {
-    border-left: 0;
-    border-right: 0;
-    border-bottom: 0;
-  }
-  table.responsive-stripes.bordered tr {
-    border: 0;
-  }
-  table.responsive-stripes.bordered tbody tr {
-    border-right: 1px solid #d0d0d0;
-  }
-}
-
-table.responsive-stripes > tbody > tr:nth-child(odd) {
-  background-color: #f2f2f2;
-}
-
-table.responsive-stripes > tbody > tr > td {
-  border-radius: 0;
-}
-
-table.responsive-stripes thead tr th, table.responsive-stripes tbody tr td {
-  text-align: center;
-}
-
-#menu {
-    color: #fb8c00;
-}
-
-.player-label {
-    color: white;
-    background-color: #fb8c00;
+<<<<<<< HEAD
+.side-nav {
+    width: 250px;
+}
+
+#navhead {
+    border-bottom-width: 5px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+
+#photo {
+    margin-top: 15px;
+    width: 50%;
+    height: 50%
+    
+}
+
+#name {
+    margin-top: 0px;
+    text-shadow: 2px 2px 2px gray;
+}
+
+#copyright {
+    margin-top: 0px;
+}
+
+.socialmedia {
+    margin: 5px;
+}
+
+h1 {
+    font-family: 'Abhaya Libre', serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    background-color: black;
+    background-image: url(../media/roller.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+main {
+    margin-left: 250px;
+    flex: 1 0 auto;
+}
+
+section {
+    background-color: white;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 6px gray;
+}
+
+.page-footer {
+    margin-left: 250px;
+}
+
+@media only screen and (max-width: 992px){
+    main {
+        margin-left: 0px;
+    }
+    .page-footer {
+        margin-left: 0px;
+    }
+}
+
+.side-nav li:hover {
+    background-color: #fb8c00;
+    transition: background-color .5s, color .5s;
+}
+
+.side-nav a:hover{
+    color: white;
+}
+
+.side-nav li.active {
+    background-color: #fb8c00;
+}
+
+.carousel .carousel-item {
+width:300px !important;
+height:400px !important;}
+
+.info {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px){
+    .player {
+    width: 50%;
+    height: 50%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+    
+    border-width: 5px;
+    border-color: gray;
+    border-style: solid;
+    }
+}
+
+@media only screen and (min-width: 800px){
+    .player {
+    width: 30%;
+    height: 30%;
+    float: right; 
+    margin-left: 5%;
+    margin-bottom: 5%;
+    
+    border-width: 5px;
+    border-color: gray;
+    border-style: solid;
+    }
+}
+
+
+.player-photo {
+    width: 100%;
+    height: 100%;
+    border-bottom-width: 5px;
+    border-bottom-color: gray;
+    border-bottom-style: solid;
+}
+
+.player-box {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.statistics {
+    width: 60%;
+    text-align: center;
+}
+
+.teamlogo {
+    width: 75px;
+    height: 75px;
+}
+
+@media only screen and (max-width: 1300px) {
+  table.responsive-stripes {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    display: block;
+    position: relative;
+    /* sort out borders */
+  }
+  table.responsive-stripes td:empty:before {
+    content: '\00a0';
+  }
+  table.responsive-stripes th,
+  table.responsive-stripes td {
+    margin: 0;
+    vertical-align: top;
+  }
+  table.responsive-stripes th {
+    text-align: left;
+  }
+  table.responsive-stripes thead {
+    display: block;
+    float: left;
+  }
+  table.responsive-stripes thead tr {
+    display: block;
+    padding: 0 10px 0 0;
+  }
+  table.responsive-stripes thead tr th::before {
+    content: "\00a0";
+  }
+  table.responsive-stripes tbody {
+    display: block;
+    width: auto;
+    position: relative;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+  table.responsive-stripes tbody tr {
+    display: inline-block;
+    vertical-align: top;
+  }
+  table.responsive-stripes th {
+    display: block;
+    text-align: right;
+  }
+  table.responsive-stripes td {
+    display: block;
+    min-height: 1.25em;
+    text-align: left;
+  }
+  table.responsive-stripes tr {
+    padding: 0 10px;
+  }
+  table.responsive-stripes thead {
+    border: 0;
+    border-right: 1px solid #d0d0d0;
+  }
+  table.responsive-stripes.bordered th {
+    border-bottom: 0;
+    border-left: 0;
+  }
+  table.responsive-stripes.bordered td {
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 0;
+  }
+  table.responsive-stripes.bordered tr {
+    border: 0;
+  }
+  table.responsive-stripes.bordered tbody tr {
+    border-right: 1px solid #d0d0d0;
+  }
+}
+
+table.responsive-stripes > tbody > tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+table.responsive-stripes > tbody > tr > td {
+  border-radius: 0;
+}
+
+table.responsive-stripes thead tr th, table.responsive-stripes tbody tr td {
+  text-align: center;
+}
+
+#menu {
+    color: #fb8c00;
+}
+
+.player-label {
+    color: white;
+    background-color: #fb8c00;
+
 }
