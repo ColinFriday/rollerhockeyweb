@@ -247,6 +247,8 @@ table.responsive-stripes thead tr th, table.responsive-stripes tbody tr td {
 .player-label {
     color: white;
     background-color: #fb8c00;
+}
 
->>>>>>> fcdfcc4a55a8842bce2d83de8fc49c75cec33314
+#here {
+    color: white;
 }
