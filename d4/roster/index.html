@@ -7,7 +7,11 @@
         <!-- Website Tab Information -->
         <title>RIT Roller Roster</title>
         <link rel="shortcut icon" type="image/x-icon" href="../../media/favicon.ico" />
-        
+          <script
+                  src="https://code.jquery.com/jquery-3.3.1.js"
+                  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+                  crossorigin="anonymous">
+          </script>
         <!-- Materialize Framework -->
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link type="text/css" rel="stylesheet" href="../../css/materialize.css"  media="screen"/>
@@ -31,36 +35,16 @@
 
             gtag('config', 'UA-106818821-1');
         </script>
-
+          <script>
+              $(function(){
+                  $("#header").load("../../header.html");
+                  $("#footer").load("../../footer.html");
+              });</script>
       </head>
 
       <body>
           <!-- Navigation Bar -->
-          <ul id="slide-out" class="side-nav fixed center-align">
-              <li class="orange darken-1" id="navhead" >
-                  <img id="photo" src="../../media/teams/RIT.png" alt="The RIT Tiger" />
-                  <h3 id= "name" class="white-text">RIT Roller Hockey</h3>
-              </li>
-              <li>
-                  <a href="../../">Home</a>
-              </li>
-              <li>
-                  <a href="../../d2/roster/">Division 2 Roster</a>
-              </li>
-              <li>
-                  <a href="../../d2/schedule/">Division 2 Schedule</a>
-              </li>
-              <li class="active">
-                  <a id="here" href="">Division 4 Roster</a>
-              </li>
-              <li>
-                  <a href="../schedule/">Division 4 Schedule</a>
-              </li>
-              <li>
-                  <a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#116;&#114;&#111;&#108;&#108;&#101;&#114;&#104;&#111;&#99;&#107;&#101;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;'>Email Us!</a>
-              </li>           
-          </ul>
-          <a id="menu" href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+          <div id="header"></div>
 
         <main>
             <div class="container">
@@ -288,35 +272,9 @@
         
         
           <!-- Footer With Social Media Bar -->
-          <footer class="page-footer orange darken-1">
-              <div class="container  center-align">
-                  <div class="row">
-                      <div class="col s12">
-                          <h5 class="white-text">Social Media</h5>
-                          <p>
-                              <a href="https://www.facebook.com/ColinRFriday"><img class="socialmedia"  src="../../media/facebook.png" alt="Facebook"/></a>
-                              <a href="https://twitter.com/RIT_Roller"><img class= "socialmedia" src="../../media/twitter.png" alt="Twitter"/></a>
-                          </p>
-                      </div>
-                  </div>
-              </div>
-              <div class="footer-copyright">
-                  <div class="container">
-                      <div class="col s4 offset-s4 center-align">
-                        <p id="copyright">&copy; 2019 Stormy Harbor Studios</p>
-                    </div>
-                </div>
-            </div>
-        </footer>
-
-    
-        
-        <!--Import jQuery before materialize.js-->
-        <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-        <script type="text/javascript" src="../js/materialize.min.js"></script>
-        <script>
-            $(".button-collapse").sideNav();
-        </script>
-
+          <div id="footer"></div>
+          <!--Import jQuery before materialize.js-->
+          <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+          <script type="text/javascript" src="../../js/materialize.min.js"></script>
     </body>
   </html>

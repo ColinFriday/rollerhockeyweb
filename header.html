@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <base href="/rollerhockeyweb/">
+</head>
+<body>
+<ul id="dropdown1" class="dropdown-content">
+    <li><a href="d2/roster/">Roster</a></li>
+    <li class="divider"></li>
+    <li><a href="d2/schedule/">Schedule</a></li>
+</ul>
+<ul id="dropdown2" class="dropdown-content">
+    <li><a href="d4/roster/">Roster</a></li>
+    <li class="divider"></li>
+    <li><a href="d4/schedule/">Schedule</a></li>
+</ul>
+<div class="navbar-fixed">
+<nav>
+    <div class="nav-wrapper">
+        <ul class="left hide-on-med-and-down">
+            <!-- Dropdown Trigger -->
+            <li><a href="">Home</a></li>
+            <li><a href="about/">About</a></li>
+            <li><a class="dropdown-button" href="" data-activates="dropdown1">Division 2<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a class="dropdown-button" href="" data-activates="dropdown2">Division 4<i class="material-icons right">arrow_drop_down</i></a></li>
+            <li><a href='&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#114;&#105;&#116;&#114;&#111;&#108;&#108;&#101;&#114;&#104;&#111;&#99;&#107;&#101;&#121;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;'>Email Us!</a></li>
+        </ul>
+    </div>
+</nav>
+</div>
+<script>
+    $(document).ready(function(){
+        $('.carousel').carousel();
+        $('.carousel.carousel-slider').carousel({fullWidth: true});
+        $('.dropdown-button').dropdown({hover: true});
+        $('.dropdown-content>li>a').css("color", "black");
+    });
+</script>
+</body>
+</html>
