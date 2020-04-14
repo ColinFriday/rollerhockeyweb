@@ -10,3 +10,4 @@ deployment:
     - /bin/cp -R d2 $DEPLOYPATH
     - /bin/cp -R d4 $DEPLOYPATH
     - /bin/cp -R media $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
