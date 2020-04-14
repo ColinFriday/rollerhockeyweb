@@ -6,6 +6,7 @@ deployment:
     - /bin/cp header.html $DEPLOYPATH
     - /bin/cp footer.html $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
-    -/bin/cp -R about $DEPLOYPATH
+    - /bin/cp -R about $DEPLOYPATH
     - /bin/cp -R d2 $DEPLOYPATH
-    -/bin/cp -R d4 $DEPLOYPATH
+    - /bin/cp -R d4 $DEPLOYPATH
+    - /bin/cp -R media $DEPLOYPATH
